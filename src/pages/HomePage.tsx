@@ -30,10 +30,7 @@ const HomePage = ({
             Todo List App
           </Typography>
           <Typography variant="body2">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
-            expedita iste incidunt obcaecati doloremque. Blanditiis laudantium
-            ipsa, velit debitis minima amet odit voluptate pariatur impedit
-            voluptatum nostrum! Id, atque voluptatibus?
+            Enter your todo, save it to server!
           </Typography>
         </CardContent>
         <CardActions>

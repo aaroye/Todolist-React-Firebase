@@ -8,21 +8,6 @@ import LoginPage from "./pages/LoginPage";
 import { auth, listenUserData } from "./firebase/utils";
 import { onAuthStateChanged } from "firebase/auth";
 
-function ColoredComponent({ color }: { color: string }) {
-  return (
-    <div
-      style={{
-        backgroundColor: color,
-        width: "100%",
-        paddingTop: "20px",
-        textAlign: "center",
-      }}
-    >
-      <Typography variant="overline"> Sample piece of text</Typography>
-    </div>
-  );
-}
-
 function App() {
   const [isLogin, setIsLogin] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
